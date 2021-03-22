@@ -25,7 +25,7 @@ $(OBJDIR)/%.o: %.c
 	$(CC) $(CFLAGS) $(CPPFLAGS) -o $@ -c $<
 
 run: clean server
-	@./server 100 input/file_posizioni.txt
+	@./server 100 input/positions_input.txt
 
 clean:
 	@rm -vf ${SERVER_OBJS}
