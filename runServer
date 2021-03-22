@@ -1,4 +1,4 @@
 #! /bin/bash
 
 make server
-./server 42 ./input/file_posizioni.txt
+./server 42 ./input/positions_input.txt
